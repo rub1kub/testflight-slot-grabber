@@ -1,6 +1,5 @@
 # TestFlight Slot Grabber
 
-[![CI](https://github.com/rub1kub/testflight-slot-grabber/actions/workflows/ci.yml/badge.svg)](https://github.com/rub1kub/testflight-slot-grabber/actions/workflows/ci.yml)
 ![macOS 13+](https://img.shields.io/badge/macOS-13%2B-black)
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Swift 5.9](https://img.shields.io/badge/Swift-5.9-orange)
