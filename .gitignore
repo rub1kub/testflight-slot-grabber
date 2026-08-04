@@ -1,0 +1,16 @@
+.build/
+.appium/
+node_modules/
+package-lock.json
+config.json
+.DS_Store
+.idea/
+.vscode/
+.coverage
+htmlcov/
+helper/TestFlightAXHelper.app/Contents/MacOS/testflight-ax
+helper/TestFlightAXHelper.app/Contents/_CodeSignature/
+mock/TestFlightAXMock.app/Contents/MacOS/testflight-ax-mock
+mock/TestFlightAXMock.app/Contents/_CodeSignature/
+*.pyc
+__pycache__/

@@ -1,0 +1,40 @@
+{
+  "target_url": "https://testflight.apple.com/join/u6iogfd0",
+  "join_code": "u6iogfd0",
+  "expected_app_name": "Telegram Messenger",
+  "dry_run": true,
+  "monitor": {
+    "interval_seconds": 7.0,
+    "jitter_seconds": 1.5,
+    "request_timeout_seconds": 12.0,
+    "range_probe_bytes": 3072,
+    "confirm_min_delay_ms": 300,
+    "confirm_max_delay_ms": 900,
+    "backoff_initial_seconds": 15.0,
+    "backoff_max_seconds": 300.0,
+    "acceptance_retry_cooldown_seconds": 45.0
+  },
+  "automation": {
+    "deep_link": "itms-beta://testflight.apple.com/join/u6iogfd0",
+    "prewarm_testflight": true,
+    "accept_timeout_seconds": 12.0,
+    "install_timeout_seconds": 30.0,
+    "install_after_accept": true
+  },
+  "paths": {
+    "data_dir": "~/Library/Application Support/TestFlightSlotGrabber",
+    "log_dir": "~/Library/Logs/TestFlightSlotGrabber",
+    "ax_binary": "helper/TestFlightAXHelper.app/Contents/MacOS/testflight-ax"
+  },
+  "notifications": {
+    "sound": true,
+    "telegram": {
+      "enabled": false,
+      "bot_token_keychain_service": "testflight-slot-grabber-bot-token",
+      "chat_id_keychain_service": "testflight-slot-grabber-chat-id"
+    }
+  },
+  "experimental_api_replay": {
+    "enabled": false
+  }
+}

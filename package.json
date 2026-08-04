@@ -1,0 +1,6 @@
+{
+  "name": "testflight-slot-grabber-ios-tools",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Optional local Appium/XCUITest tooling for the physical-iPhone fallback"
+}
